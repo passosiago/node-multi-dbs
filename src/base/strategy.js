@@ -27,19 +27,8 @@ class InterfaceCrud extends NotImplementedError{
 }
 
 
-class MongoDb extends InterfaceCrud{
-    constructor(){
-        super()
-    }
 
-    create(item){
-        console.log('criado');
-    }
-}
+module.exports = InterfaceCrud;
 
-class PostgresDb extends InterfaceCrud{
-    constructor(){
-        super()
-    }
-}
+
 
