@@ -24,6 +24,10 @@ class InterfaceDb extends NotImplementedError{
     delete(id){
         throw new NotImplementedError;
     }
+    
+    isConnected(){
+        throw new NotImplementedError;
+    }
 }
 
 
